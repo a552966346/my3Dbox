@@ -1,0 +1,54 @@
+			html{
+				height: 657px;
+			}
+			body{
+				background-image: url(../img/timg.jpg);		
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+			#waimiande{
+				width: 650px;
+				height: 200px;
+				/*改变左右上下,图片方块移动*/
+				margin: 0 auto;
+				margin-top:230px;
+				position: relative;
+			}
+			#limiande{
+				width: 200px;
+				height: 200px;
+				margin: 0 auto;
+				transform-style: preserve-3d;
+				transform: rotateX(-60deg) rotateY(-60deg);
+			}
+			#out_small{
+				width: 200px;
+				height: 200px;
+				margin: 0 auto;
+				transform-style: preserve-3d;
+				position: absolute;
+				/*transform: rotateX(-60deg) rotateY(-60deg);*/
+			}
+			.bif{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				opacity: 0.8;
+				transition:all .4s;
+			}
+			.bif img{
+				width: 200px;
+				height: 200px;
+			}
+			.sif{
+				display: block;
+				height: 100px;
+				width: 100px;
+				position: absolute;
+				top: 50px;
+				left: 50px;
+			}
+			.sif img{
+				width: 100px;
+				height: 100px;
+			}
